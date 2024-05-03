@@ -1,23 +1,17 @@
 import Navbar from '../Navbar'
+import Video from '../Video'
 
 export default function HeroSection() {
     return (
-        <section className=''>
-            <video
-                autoPlay
-                loop
-                muted
+        <main className='min-h-screen'>
+            <Video
+                src='/assets/videos/main-background-video.mp4'
                 className='absolute inset-0 w-full h-full object-cover'
-            >
-                <source
-                    src='/assets/videos/main-background-video.mp4'
-                    type='video/mp4'
-                ></source>
-                Your browser does not support the video tag.
-            </video>
-            <section className='relative z-10 p-6 px-8'>
+            />
+
+            <section className='relative z-10 '>
                 <Navbar />
-                <div className='xl:px-[140px] md:px-[120px] w-[1440px] mx-auto mt-[400px]'>
+                <div className='xl:px-[140px] md:px-[120px] min-w-[1440px] mx-auto mt-[400px]'>
                     <h1 className='md:text-[48px] xl:text-[68px] font-normal font-monument text-white leading-[75px]'>
                         The world's first platform for Tokenizing AI blockchain
                         projects
@@ -35,6 +29,6 @@ export default function HeroSection() {
                     </div>
                 </div>
             </section>
-        </section>
+        </main>
     )
 }

@@ -13,6 +13,8 @@ const config: Config = {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
                 'gradient-conic':
                     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+                'text-gradient':
+                    'bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF] text-transparent bg-clip-text',
             },
             fontWeight: {
                 normal: '400',

@@ -5,7 +5,7 @@ import { navLinks } from './navLinks'
 
 export default function Navbar() {
     return (
-        <nav className='flex justify-between'>
+        <nav className='flex justify-between p-6 px-8'>
             <Logo />
             <ul className='flex items-center list-style-none text-white gap-[40px]'>
                 {navLinks.map(nav => (
