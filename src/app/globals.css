@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+@layer base {
+  @font-face {
+    font-family: "Monument";
+    src: url("../../fonts/MonumentExtended-Regular.woff2");
+  }
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../../fonts/Satoshi-Bold.woff2") format('woff2');
+  }
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../../fonts/Satoshi-Medium.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Satoshi-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../../fonts/Satoshi-Regular.woff2') format('woff2');
+  }
+}
