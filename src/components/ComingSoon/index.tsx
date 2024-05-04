@@ -12,7 +12,10 @@ export default function ComingSoon() {
         <Container>
             <div className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-12 md:gap-8'>
                 {comingSoon.map((feature, index) => (
-                    <div key={feature.name} className='relative'>
+                    <div
+                        key={feature.name}
+                        className='relative  cursor-default'
+                    >
                         <span className='px-[6px] py-[3px] absolute z-50 right-8 top-[-10px] bg-white w-fit rounded-[100px]'>
                             <p className='font-satoshi_bold text-[12px]'>
                                 COMING SOON
