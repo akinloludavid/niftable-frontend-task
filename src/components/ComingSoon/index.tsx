@@ -10,7 +10,7 @@ export default function ComingSoon() {
                 {comingSoon.map(feature => (
                     <div
                         key={feature.name}
-                        className='bg-[#13171D99] rounded-[6px] p-8 pb-12 flex flex-col relative min-h-[580px] md:min-h-[680px] xl:min-h-[640px]'
+                        className='bg-[#13171D99] rounded-[6px] p-8 pb-12 flex flex-col relative min-h-[580px] md:min-h-[680px] xl:min-h-[640px] 2xl:min-h-[720px]'
                     >
                         <span className='px-[6px] py-[3px] absolute right-8 top-[-10px] bg-white w-fit rounded-[100px]'>
                             <p className='font-satoshi_bold text-[12px]'>

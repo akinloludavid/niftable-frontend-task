@@ -6,7 +6,7 @@ export default function HeroSection() {
         <main className='min-h-screen overflow-x-hidden scrollbar-hide'>
             <Video
                 src='/assets/videos/main-background-video.mp4'
-                className='absolute inset-0 w-full h-full object-cover '
+                className='absolute inset-0 w-full h-full object-cover max-w-[1920px] mx-auto'
             />
             <section className='relative z-10'>
                 <Navbar />

@@ -10,7 +10,7 @@ import SideMenu from './SideMenu'
 export default function Navbar() {
     const [showSideMenu, setShowSideMenu] = useState(false)
     return (
-        <nav className='flex fixed top-0 w-full z-[99999] items-center justify-between py-8 px-4 md:py-8 md:px-8'>
+        <nav className='flex fixed top-0 w-full z-[99999] items-center mx-auto justify-between py-8 px-4 md:py-4 md:px-8 max-w-[1920px]'>
             <Logo />
             <ul className='flex hidden lg:flex items-center list-style-none text-white md:gap-6 xl:gap-[40px]'>
                 {navLinks.map(nav => (

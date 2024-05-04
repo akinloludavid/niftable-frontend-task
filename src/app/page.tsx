@@ -8,7 +8,7 @@ import RoadMap from '@/components/Roadmap'
 
 export default function Home() {
     return (
-        <main>
+        <main className='mx-auto max-w-[1920px]'>
             <HeroSection />
             <About />
             <Profiting />
