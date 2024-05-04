@@ -11,7 +11,7 @@ export default function HeroSection() {
             <section className='relative z-10'>
                 <Navbar />
                 <div className='xl:px-[140px] px-6 3xl:px-[240px] md:px-[120px] mx-auto mt-[300px] md:mt-[350px] lg:mt-[400px]'>
-                    <h1 className='text-[32px] md:text-[48px] lg:w-4/5 3xl:text-[68px] font-normal uppercase font-monument text-white leading-[48px]'>
+                    <h1 className='text-[32px] md:text-[48px] lg:w-4/5 3xl:text-[68px] font-normal uppercase font-monument text-white leading-[54px]'>
                         The world's first platform for Tokenizing AI blockchain
                         projects
                     </h1>

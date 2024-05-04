@@ -17,10 +17,10 @@ export default function Mission() {
     return (
         <Container className='grid lg:grid-cols-2 grid-cols-1 gap-12 items-start'>
             <section className='w-full'>
-                <h3 className='uppercase text-[32px] 2xl:text-[38px] leading-[48px] font-monument text-white'>
+                <h3 className='uppercase text-[32px] 2xl:text-[38px] leading-[54px] font-monument text-white'>
                     Our vision is to support the innovation of AI blockchain
                     projects{' '}
-                    <GradientText className='text-[32px] 2xl:text-[38px] leading-[48px] font-monument'>
+                    <GradientText className='text-[32px] 2xl:text-[38px] leading-[54px] font-monument'>
                         while prioritizing communities and democratizing profits
                     </GradientText>
                 </h3>

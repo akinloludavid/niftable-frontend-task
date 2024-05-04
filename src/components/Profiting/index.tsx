@@ -4,7 +4,7 @@ import Video from '../Video'
 export default function Profiting() {
     return (
         <section className='bg-black py-[120px] xl:py-[136px] px-6 xl:px-[140px] md:px-[120px]'>
-            <h3 className='text-[32px] md:text-[48px] 3xl:text-[68px] font-normal font-monument text-white leading-[75px'>
+            <h3 className='text-[32px] md:text-[48px] 3xl:text-[68px] font-normal font-monument text-white leading-[54px]'>
                 PROFITTING THROUGH
             </h3>
             <section className='flex md:justify-end'>
