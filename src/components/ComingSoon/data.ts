@@ -15,7 +15,9 @@ export const comingSoon = [
     {
         name: 'LAUNCHPAD',
         title: 'Driving the future of AI Innovation',
-        description: `CREON NFT and token holders are integral participants in the profit-sharing from our launched AI-based enterprises. We support the development of AI tools, ensuring a steady revenue stream, all while allowing early investors to enjoy the benefits of their support.`,
+        description: `
+        The Creon AI Launchpad, an essential component of our initiative, represents a groundbreaking opportunity in the realm of AI and blockchain. It provides the first known platform for acquiring allocations in tokenized AI projects, offering our community of NFT and CREON token holders early access to innovative and promising AI endeavors.
+        `,
         img: '/assets/soon/img3.png',
     },
 ]

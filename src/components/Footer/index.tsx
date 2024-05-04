@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Container from '../Container'
 
 const socials = [
     {
@@ -16,8 +17,8 @@ const socials = [
 ]
 export default function Footer() {
     return (
-        <footer className='xl:px-[140px] md:px-[120px] flex items-center justify-between bg-black pt-6 pb-8'>
-            <div className='flex items-center gap-[120px]'>
+        <footer className='flex xl:px-[140px] md:px-[120px] px-6 items-center pt-6 pb-8  flex-col gap-6 md:gap-0 md:flex-row justify-between bg-black overflow-hidden scrollbar-hide'>
+            <div className='flex flex-col md:flex-row items-center gap-6 md:gap-[120px]'>
                 <p className='text-white'>© Creon 2023. All rights reserved.</p>
                 <section className='flex items-center gap-2'>
                     {socials.map(social => (

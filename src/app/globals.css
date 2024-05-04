@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -37,4 +36,27 @@
     font-display: swap;
     src: url('../../fonts/Satoshi-Regular.woff2') format('woff2');
   }
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #AB23FF; /* Color of the thumb */
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.coming-soon-img{
+  /* width: 200px!important; */
+  /* border-radius: 40px; */
 }

@@ -1,15 +1,23 @@
+'use client'
 import { classNames } from '@/utils/helpers'
 import Link from 'next/link'
+import Button from '../Button'
 import Logo from '../Logo'
 import { navLinks } from './navLinks'
-
+import { MdMenu } from 'react-icons/md'
+import { useState } from 'react'
+import SideMenu from './SideMenu'
 export default function Navbar() {
+    const [showSideMenu, setShowSideMenu] = useState(false)
     return (
-        <nav className='flex justify-between p-6 px-8'>
+        <nav className='flex fixed top-0 w-full z-[99999] items-center justify-between py-8 px-4 md:py-8 md:px-8'>
             <Logo />
-            <ul className='flex items-center list-style-none text-white gap-[40px]'>
+            <ul className='flex hidden lg:flex items-center list-style-none text-white md:gap-6 xl:gap-[40px]'>
                 {navLinks.map(nav => (
-                    <li className='font-satoshi_regular flex gap-1 font-medium'>
+                    <li
+                        key={nav.label}
+                        className='font-satoshi_regular flex gap-1 font-medium'
+                    >
                         <Link href={'#'}>{nav.label}</Link>
                         <span
                             className={classNames(
@@ -24,10 +32,20 @@ export default function Navbar() {
                     </li>
                 ))}
 
-                <button className='font-bold text-[18px] rounded-[6px] border-[2px] border-white px-[30px] py-3'>
+                <Button
+                    variant='secondary'
+                    className='hidden lg:flex lg:items-center'
+                >
                     Connect
-                </button>
+                </Button>
             </ul>
+            <MdMenu
+                className='text-white text-[24px] cursor-pointer lg:hidden'
+                onClick={() => setShowSideMenu(true)}
+            />
+            {showSideMenu && (
+                <SideMenu onClose={() => setShowSideMenu(false)} />
+            )}
         </nav>
     )
 }

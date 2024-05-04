@@ -9,9 +9,9 @@ interface ButtonProps {
 const Button = ({ children, variant, className }: ButtonProps) => {
     const variantObj = {
         primary:
-            'bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF] rounded-[6px] text-[18px] font-bold text-white h-[54px] min-w-[320px]',
+            'bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF] rounded-[6px] text-[18px] font-satoshi_bold text-white h-[54px] min-w-[320px]',
         secondary:
-            'font-bold text-[18px] rounded-[6px] border-[2px] border-white px-[30px] py-3',
+            'font-satoshi_bold text-[18px] rounded-[6px] border-[2px] border-white px-[30px] h-12 ',
     }
     return (
         <button

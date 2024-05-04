@@ -8,6 +8,14 @@ const config: Config = {
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
+        screens: {
+            sm: '640px',
+            md: '768px',
+            lg: '1024px',
+            xl: '1280px',
+            '2xl': '1536px',
+            '3xl': '1920px',
+        },
         extend: {
             backgroundImage: {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -57,6 +65,8 @@ const config: Config = {
                 white: '#ffffff',
                 black: '#000000',
                 purple: '#AB23FF',
+                blue: '#3D8BFF',
+                'grey-line': '#13171D',
             },
 
             spacing: {

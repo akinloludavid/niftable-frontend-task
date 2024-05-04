@@ -3,8 +3,6 @@ import Image from 'next/image'
 import { useState } from 'react'
 import Container from '../Container'
 import GradientText from '../GradientText'
-import Launch from '../icons/Launch'
-import Profit from '../icons/Profit'
 import { faqs as visions } from './faqs'
 
 export default function Mission() {
@@ -17,12 +15,12 @@ export default function Mission() {
         setFaqs(updatedAccordions)
     }
     return (
-        <Container className='grid grid-cols-2 items-start'>
-            <section>
-                <h3 className='uppercase text-[38px] font-monument text-white'>
+        <Container className='grid lg:grid-cols-2 grid-cols-1 gap-12 items-start'>
+            <section className='w-full'>
+                <h3 className='uppercase text-[32px] 2xl:text-[38px] leading-[48px] font-monument text-white'>
                     Our vision is to support the innovation of AI blockchain
                     projects{' '}
-                    <GradientText className='text-[38px] font-monument'>
+                    <GradientText className='text-[32px] 2xl:text-[38px] leading-[48px] font-monument'>
                         while prioritizing communities and democratizing profits
                     </GradientText>
                 </h3>
@@ -31,10 +29,10 @@ export default function Mission() {
                     alt='creon logo'
                     width={400}
                     height={300}
-                    className='ml-auto'
+                    className='lg:ml-auto w-full mt-4 lg:mt-0'
                 />
             </section>
-            <section className='text-white flex flex-col gap-[30px] max-h-[720px] overflow-scroll'>
+            <section className='text-white flex flex-col gap-[30px] max-h-[720px] overflow-scroll scrollbar-hide'>
                 {faqs.map((faq, index) => (
                     <details
                         key={faq.title}

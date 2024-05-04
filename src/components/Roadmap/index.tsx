@@ -11,14 +11,14 @@ export default function RoadMap() {
                 className='absolute left-0 w-full h-2/3 bottom-0 object-cover'
             />
 
-            <div className='flex flex-col gap-4 relative z-10 '>
+            <div className='flex flex-col gap-4 relative z-5 '>
                 {roadMap.map(road => (
                     <div
                         key={road.title}
-                        className='bg-[#13171D99] rounded-[6px] text-white flex items-center h-[250px]'
+                        className='bg-[#13171D99] rounded-[6px] text-white flex flex-col-reverse lg:flex-row items-center lg:h-[250px]'
                     >
-                        <div className='flex flex-col gap-[15px] p-6 w-[75%]'>
-                            <h3 className='text-[38px] font-monument'>
+                        <div className='flex flex-col gap-[15px] p-4 md:p-6 w-full lg:w-[75%]'>
+                            <h3 className='md:text-[32px] leading-[36px] 2xl:leading-[45px] 2xl:text-[38px] font-monument'>
                                 {road.title}
                             </h3>
                             <p className='font-satoshi_regular'>
@@ -30,7 +30,7 @@ export default function RoadMap() {
                             alt={road.title}
                             width={400}
                             height={400}
-                            className='w-[25%] h-full'
+                            className='w-full rounded-t-[6px] lg:rounded-0 lg:w-[25%] h-full'
                         />
                     </div>
                 ))}
