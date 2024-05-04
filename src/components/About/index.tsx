@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../Button'
 import Container from '../Container'
 import GradientText from '../GradientText'
+import Video from '../Video'
 
 function About() {
     return (
@@ -37,13 +38,7 @@ function About() {
                 </Button>
             </div>
             <div className=''>
-                <video autoPlay loop muted>
-                    <source
-                        src='/assets/videos/nft-video.mp4'
-                        type='video/mp4'
-                    ></source>
-                    Your browser does not support the video tag.
-                </video>
+                <Video src='/assets/videos/nft-video.mp4' />
             </div>
         </Container>
     )
