@@ -9,13 +9,13 @@ export default function GradientText({
     className?: string
 }) {
     return (
-        <div
+        <span
             className={classNames(
-                'bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF] font-satoshi_regular text-transparent bg-clip-text',
+                'bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF]  text-transparent bg-clip-text',
                 className,
             )}
         >
-            <p>{children}</p>
-        </div>
+            {children}
+        </span>
     )
 }

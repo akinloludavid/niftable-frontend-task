@@ -15,7 +15,7 @@ export default function ComingSoon() {
                         <h4 className='font-normal font-monument md:text-[32px] xl:text-[38px] text-white mb-6'>
                             {feature.name}
                         </h4>
-                        <GradientText className='mb-12'>
+                        <GradientText className='mb-12 font-satoshi_bold'>
                             {feature.title}
                         </GradientText>
                         <div className='mt-auto'>
