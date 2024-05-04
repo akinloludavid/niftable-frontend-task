@@ -18,7 +18,7 @@ export default function Profiting() {
                     src='/assets/videos/creon-logo.mp4'
                     className='w-full lg:w-[60%]'
                 />
-                <div className='flex flex-col gap-[28px]'>
+                <div className='flex flex-col gap-[28px] lg:border-x-[1px] lg:border-x-[#13171D] lg:p-6 h-full'>
                     <h5 className='font-satoshi_bold text-[22px] text-white'>
                         The dynamic community driven business model of the
                         future.
