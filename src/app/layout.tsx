@@ -4,9 +4,6 @@ import './globals.css'
 export const metadata: Metadata = {
     title: 'Creon',
     description: 'Niftable Frontend test by Akinlolu',
-    icons: {
-        icon: '/logo.svg',
-    },
 }
 
 export default function RootLayout({
