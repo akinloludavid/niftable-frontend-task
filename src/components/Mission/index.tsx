@@ -20,7 +20,7 @@ export default function Mission() {
                 <h3 className='uppercase text-[32px] 2xl:text-[38px] leading-[54px] font-monument text-white'>
                     Our vision is to support the innovation of AI blockchain
                     projects{' '}
-                    <GradientText className='text-[32px] 2xl:text-[38px] leading-[54px] font-monument'>
+                    <GradientText className='text-[32px] 2xl:text-[38px] leading-[54px] font-monument break-words'>
                         while prioritizing communities and democratizing profits
                     </GradientText>
                 </h3>
@@ -42,7 +42,7 @@ export default function Mission() {
                             onMouseEnter={() => setFaqIndex(index)}
                             onMouseLeave={() => setFaqIndex(-1)}
                             onClick={() => handleAccordion(index)}
-                            className='font-satoshi_bold text-[22px] flex items-center hover:text-blue gap-8 cursor-pointer marker:content-none'
+                            className='summary-reset font-satoshi_bold text-[22px] flex items-center hover:text-blue gap-8 cursor-pointer marker:content-none'
                         >
                             <div>{faq.icon(faq.open)}</div>
                             <div className='flex justify-between items-center w-full'>

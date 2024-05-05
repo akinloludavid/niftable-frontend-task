@@ -55,3 +55,7 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+.summary-reset::-webkit-details-marker {
+  display: none;
+}
