@@ -17,14 +17,14 @@ export default function HeroSection() {
                     </h1>
 
                     <div className='mt-[40px]'>
-                        <div className='h-[1px] bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF] lg:flex hidden w-[660px]' />
-                        <div className='bg-gradient-to-r my-1 from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF] text-transparent bg-clip-text'>
+                        <div className='h-[1px] bg-gradient-to-r from-blue via-purple to-purple lg:flex hidden w-[660px]' />
+                        <div className='bg-gradient-to-r my-1 from-blue via-purple to-purple text-transparent bg-clip-text'>
                             <p className='font-bold text-[22px] font-satoshi_bold'>
                                 Hold the Creon Pass NFT and earn passive income
                                 from AI Tools
                             </p>
                         </div>
-                        <div className='h-[1px] bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF] lg:flex hidden w-[660px]' />
+                        <div className='h-[1px] bg-gradient-to-r from-blue via-purple to-purple lg:flex hidden w-[660px]' />
                     </div>
                 </div>
             </section>

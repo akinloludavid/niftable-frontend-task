@@ -11,7 +11,7 @@ export default function GradientText({
     return (
         <span
             className={classNames(
-                'bg-gradient-to-r from-[#3D8BFF] via-[#AB23FF] to-[#AB23FF]  text-transparent bg-clip-text',
+                'bg-gradient-to-r from-blue via-purple to-purple text-transparent bg-clip-text',
                 className,
             )}
         >

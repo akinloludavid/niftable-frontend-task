@@ -36,13 +36,13 @@ export default function Mission() {
                 {faqs.map((faq, index) => (
                     <details
                         key={faq.title}
-                        className='pb-[30px] border-b-[1px] border-b-[#13171D]'
+                        className='pb-[30px] border-b-[1px] border-b-grey-line'
                     >
                         <summary
                             onMouseEnter={() => setFaqIndex(index)}
                             onMouseLeave={() => setFaqIndex(-1)}
                             onClick={() => handleAccordion(index)}
-                            className='font-satoshi_bold text-[22px] flex items-center hover:text-[#3D8BFF] gap-8 cursor-pointer marker:content-none'
+                            className='font-satoshi_bold text-[22px] flex items-center hover:text-blue gap-8 cursor-pointer marker:content-none'
                         >
                             <div>{faq.icon(faq.open)}</div>
                             <div className='flex justify-between items-center w-full'>

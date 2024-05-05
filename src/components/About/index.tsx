@@ -19,17 +19,17 @@ function About() {
                     </p>
                 </GradientText>
                 <ul className='flex flex-col gap-2'>
-                    <li className='px-4 py-3 border-[1px] border-[#13171D] w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
+                    <li className='px-4 py-3 border-[1px] border-grey-line w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
                         Pre-launch investment opportunities for upcoming AI
                         projects
                     </li>
-                    <li className='px-4 py-3 border-[1px] border-[#13171D] w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
+                    <li className='px-4 py-3 border-[1px] border-grey-line w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
                         Free and early access to Creon built AI projects
                     </li>
-                    <li className='px-4 py-3 border-[1px] border-[#13171D] w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
+                    <li className='px-4 py-3 border-[1px] border-grey-line w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
                         Higher allocation limits on the Creon AI Launchpad
                     </li>
-                    <li className='px-4 py-3 border-[1px] border-[#13171D] w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
+                    <li className='px-4 py-3 border-[1px] border-grey-line w-fit rounded-[6px] text-white text-[18px] font-satoshi_regular font-normal'>
                         Revenue share distribution from Creon built AI projects
                     </li>
                 </ul>
