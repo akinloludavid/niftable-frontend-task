@@ -6,7 +6,8 @@ import Video from '../Video'
 
 function About() {
     return (
-        <Container className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
+        <div id='creon-pass'>
+        <Container className='grid grid-cols-1 lg:grid-cols-2 gap-12' >
             <div className='flex flex-col gap-[48px]'>
                 <h2 className='uppercase font-monument text-[32px] md:text-[48px] 3xl:text-[68px] text-white leading-[54px]'>
                     creon pass nft
@@ -41,6 +42,8 @@ function About() {
                 <Video src='/assets/videos/nft-video.mp4' />
             </div>
         </Container>
+
+        </div>
     )
 }
 

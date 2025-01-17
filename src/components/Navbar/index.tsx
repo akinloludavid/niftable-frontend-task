@@ -12,13 +12,13 @@ export default function Navbar() {
     return (
         <nav className='flex fixed top-0 w-full z-[99999] items-center mx-auto justify-between py-8 px-4 md:py-4 md:px-8 max-w-[1920px]'>
             <Logo />
-            <ul className='flex hidden lg:flex items-center list-style-none text-white md:gap-6 xl:gap-[40px]'>
+            <ul className='hidden lg:flex items-center list-style-none text-white md:gap-6 xl:gap-[40px]'>
                 {navLinks.map(nav => (
                     <li
                         key={nav.label}
                         className='font-satoshi_regular flex gap-1 font-medium'
                     >
-                        <Link href={'#'}>{nav.label}</Link>
+                        <Link href={nav.comingSoon ? '#':'#creon-pass'}>{nav.label}</Link>
                         <span
                             className={classNames(
                                 'px-1 py-[2px] bg-black h-fit rounded-[100px]',

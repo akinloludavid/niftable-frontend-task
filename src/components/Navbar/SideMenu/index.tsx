@@ -28,7 +28,7 @@ export default function SideMenu({ onClose }: { onClose: () => void }) {
                             key={nav.label}
                             className='font-satoshi_regular text-white flex gap-1 font-medium py-4 border-y-grey-line border-y-[1px]'
                         >
-                            <Link href={'#'}>{nav.label}</Link>
+                            <Link href={nav.comingSoon ? '#':'#creon-pass'}>{nav.label}</Link>
                             <span
                                 className={classNames(
                                     'px-1 py-[2px] bg-black h-fit rounded-[100px]',
